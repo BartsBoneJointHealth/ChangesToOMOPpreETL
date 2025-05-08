@@ -1,0 +1,3 @@
+Changes made under the HERON group:
+
+1. LSOA mapping added to db using first 3 characters of the postcodes.
