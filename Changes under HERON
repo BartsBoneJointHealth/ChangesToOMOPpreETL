@@ -1,3 +1,12 @@
 Changes made under the HERON group:
 
-1. LSOA mapping added to db using first 3 characters of the postcodes.
+1.  LSOA mapping added to db using first 3 characters of the postcodes. Pipeline: https://github.com/Barts-Life-Science/ADC-DB/blob/main/Prod/Pipelines/OMOP%20Pipeline.ipynb
+    Transforms historical IMD quintile data into OMOP Observation format
+    Ensures person_id exists in the omop_person table
+2.  Visit Occurrence table validations, same pipeline as above.
+3.  Drug exposure using drug exposure records from medication administration data: Created the final drug exposure table with proper validation.
+    Valid ingredient concepts from OMOP vocabulary
+4.  Device data: OMOP CDM Device Exposure table - Contains records about exposure to a foreign physical object or instrument used for diagnostic or therapeutic purposes.
+
+
+
